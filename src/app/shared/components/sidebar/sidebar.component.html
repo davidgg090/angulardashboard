@@ -1,0 +1,28 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Lorem Ipsum</h2>
+            <h4>lorepipsum@mail.com</h4>
+        </div>
+        <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Lorem Ipsum">
+    </div>
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Páginas</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/']">Tablero</a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/posts']">Posts</a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/articles']">Artículos</a>
+    
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Herramientas</h2>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/contacts']">
+        <mat-icon>import_contacts</mat-icon>
+        Contactos
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/contacts']">
+        <mat-icon>contact_phone</mat-icon>
+        Telefono
+    </a>
+
+</mat-nav-list>
