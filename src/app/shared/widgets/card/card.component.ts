@@ -14,6 +14,7 @@ export class CardComponent implements OnInit {
   @Input() label: string;
   @Input() total: string;
   @Input() percentage: string;
+  @Input() data = [];
   constructor() { }
 
   ngOnInit(): void {
@@ -66,11 +67,9 @@ export class CardComponent implements OnInit {
         endOnTick: false,
         tickOptions: []
       },
-      series: [
-       {
-         data: [78, 91, 45, 61]
-       }
-      ],
+      series:[{
+        data: this.data
+      }]
     };
     HC_exporting(this.Highcharts);
     setTimeout(() => {
