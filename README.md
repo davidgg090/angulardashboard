@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 # Demo
-![image](/assets/img/Demo-Dashboard.png)
+![image](https://github.com/davidgg090/angulardashboard/blob/master/src/assets/img/Demo-Dashboard.png)
 
 ## Development server
 
