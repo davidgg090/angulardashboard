@@ -1,5 +1,7 @@
 # Dashboard
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/68cdb9aa9b9d4ae08cb760d4a2c9f657)](https://app.codacy.com/manual/davidgg090/angulardashboard?utm_source=github.com&utm_medium=referral&utm_content=davidgg090/angulardashboard&utm_campaign=Badge_Grade_Dashboard)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 # Demo
